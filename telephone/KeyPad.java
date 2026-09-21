@@ -16,7 +16,6 @@ public class KeyPad {
         Random rnd = new Random();
         for (int i = 0; i < numKeyPresses; i++) {
             int newDigit = rnd.nextInt(MAX_DIGIT);
-            System.out.println("Pressing: " + newDigit);
             model.addDigit(newDigit);
         }
     }
